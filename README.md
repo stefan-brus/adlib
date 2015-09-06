@@ -1,0 +1,2 @@
+# adlib
+A D library

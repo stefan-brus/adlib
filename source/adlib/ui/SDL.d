@@ -262,6 +262,10 @@ public struct SDL
         public static enum SCAN_S = SDL_SCANCODE_S;
         public static enum SCAN_D = SDL_SCANCODE_D;
         public static enum SCAN_M = SDL_SCANCODE_M;
+        public static enum SCAN_UP = SDL_SCANCODE_UP;
+        public static enum SCAN_LEFT = SDL_SCANCODE_LEFT;
+        public static enum SCAN_DOWN = SDL_SCANCODE_DOWN;
+        public static enum SCAN_RIGHT = SDL_SCANCODE_RIGHT;
         public static enum SCAN_SPACE = SDL_SCANCODE_SPACE;
         public static enum SCAN_RETURN = SDL_SCANCODE_RETURN;
         public static enum SCAN_TAB = SDL_SCANCODE_TAB;

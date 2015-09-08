@@ -26,5 +26,5 @@ public struct Config
      * The path to the log file
      */
 
-    public static enum LOG_FILE = "nesd.log";
+    public static enum LOG_FILE = "adlib.log";
 }

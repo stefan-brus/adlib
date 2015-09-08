@@ -14,9 +14,13 @@ import std.stdio;
 
 /**
  * SDLApp class
+ *
+ * Template params:
+ *      Blocking = If true, waits for an event to be polled before
+ *                 updating and rendering, etc.
  */
 
-public class SDLApp
+public class SDLApp ( bool Blocking )
 {
     /**
      * The SDL window
@@ -187,7 +191,7 @@ public class SDLApp
             this.logger.info("Starting game loop");
             while ( this.running )
             {
-                while ( SDL.Event.pollEvent(event) )
+                while ( SDL.Event.pollEvent(event) != Blocking )
                 {
                     if ( event().type == SDL.Event.QUIT )
                     {

@@ -257,10 +257,12 @@ public struct SDL
         public static enum QUIT = SDL_QUIT;
         public static enum KEYDOWN = SDL_KEYDOWN;
         public static enum KEYUP = SDL_KEYUP;
+        public static enum TEXTINPUT = SDL_TEXTINPUT;
         public static enum SCAN_W = SDL_SCANCODE_W;
         public static enum SCAN_A = SDL_SCANCODE_A;
         public static enum SCAN_S = SDL_SCANCODE_S;
         public static enum SCAN_D = SDL_SCANCODE_D;
+        public static enum SCAN_R = SDL_SCANCODE_R;
         public static enum SCAN_M = SDL_SCANCODE_M;
         public static enum SCAN_UP = SDL_SCANCODE_UP;
         public static enum SCAN_LEFT = SDL_SCANCODE_LEFT;
